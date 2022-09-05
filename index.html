@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/css/uikit.min.css" />
+    <link rel = 'stylesheet' href = 'style.css'>
+</head>
+<body>
+        <nav class="navbar navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white;">My Bwari Store</a>
+          </div>
+        </nav>
+      
+      <div class = 'container'>
+          <div class = 'row'>
+              <div class = 'col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE_vWoP0YQlL8Os8a9HBVOzD3_3m0dEfiwaRj7rwGZu9R7fkD-QUlRbklXypFQ7BJdvcM&usqp=CAU" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Stylish Jacket</h3>
+                      <p class="card-text">very Fashionable in all  season.</p>
+                      <h4 class="card-text">$100</h4>
+                      <a class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+              </div>
+
+              <div class = 'col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Correct overall</h3>
+                      <p class="card-text">African style design.</p>
+                      <h4 class="card-text">$80</h4>
+                      <a  class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+              </div>
+
+              <div class = 'col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdna.lystit.com/photos/2012/11/26/ray-ban-black-aviator-sunglasses-product-1-5627467-845584614.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title" id="productName">Aviator Glasses</h5>
+                    <p class="card-text">Makes everyone looks cool.</p>
+                    <h4 id="productPrice">$250</h4>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class = 'col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq-XJMhu6jg27on_OdjNoqeRQNha0lmRqDUs3Ji37PQ3Cfin4-FVq2SkE0YUg0vHeo1Tk&usqp=CAU" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Indian Attire</h3>
+                      <h4 class="card-text">$150</h4>
+                      <p class="card-text">Looks better on an Indian guy.</p>
+                      <a class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+              </div>
+
+            
+              <div class = 'col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.carminashoemaker.com/cdnassets/oxfords_captoe_tan_vegano_80251_l.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Oxford Shoes</h3>
+                      <h4 id="productPrice">$170</h4>
+                      <p class="card-text">Makes your feet admirable.</p>
+                      <a class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+              </div>
+
+              <div class = 'col-md-4 col-lg-4'>
+                <div class="card" style="width: 18rem;">
+                  <img src="https://italianshoescompany.com/wp-content/uploads/2022/04/0104211617281557-5_thump.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  <h5 class="card-title" id="productName">Oxford with a side brogues</h5>
+                  <h4 id="productPrice">$175</h4>
+                  <p class="card-text">The Side Brogues makes it More than a corporate shoe.</p>
+                      <a class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+      <div class="uk-overflow-auto container" style = 'width: 70%'>
+        <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+            <thead>
+                <tr>
+                    <th class="uk-table-shrink"></th>
+                    <th class="uk-table-small sty"><h3>ITEM</h3></th>
+                    <th class="uk-table-small"></th>
+                    <th class="uk-width-small sty"><h3>PRICE</h3></th>
+                    <th class="uk-table-shrink uk-text-small sty"><h3>QUANTITY</h3></th>
+                    <th class="uk-table-shrink uk-text-small sty"><h3>TOTAL</h3></th>
+
+                </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <td><input class="uk-checkbox" type="checkbox"></td>
+                <td><img class="uk-preserve-width uk-border-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE_vWoP0YQlL8Os8a9HBVOzD3_3m0dEfiwaRj7rwGZu9R7fkD-QUlRbklXypFQ7BJdvcM&usqp=CAU" width="40" alt=""></td>
+                <td class="uk-table-link">
+                    <h3 class = "item-name">Stylish Jacket</h3>
+                </td>
+                <td class="uk-text-truncate item-price"><h3>$100</h3></td>
+                <td><input type = 'number' class = 'num' value = '1'></td>
+                <td class="uk-text-truncate total-price"><h3>$100</h3></td>
+                <td><button class="uk-button uk-button-danger" type="button">Remove</button></td>
+            </tr> -->
+
+            </tbody>
+            <tr>
+              <td><input class="uk-checkbox" type="checkbox"></td>
+              <td><img class="uk-preserve-width uk-border-circle"  width="40" alt=""></td>
+              <td class="uk-table-link">
+                  <h3 class = "item-name"><strong>Grand-Total</strong></h3>
+              </td>
+              <td class="uk-text-truncate"><h3></h3></td>
+              <td class="uk-text-truncate"><h3></h3></td>
+              <td class="uk-text-truncate grand-total"><h3><strong>$0</strong></h3></td>
+              
+          </tr>
+        </table>
+    </div>
+
+      <script src = 'script.js'></script>
+</body>
+</html>
+
